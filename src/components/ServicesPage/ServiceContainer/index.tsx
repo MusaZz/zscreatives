@@ -13,6 +13,7 @@ const ServiceContainer = () => {
             path={s.path}
             imageUrl={s.imageUrl}
             index={index}
+            description={s.description}
           />
         ))}
       </ul>

@@ -9,6 +9,7 @@ interface ServiceItemProps {
   path: string;
   button: string;
   index: number;
+  description: string;
 }
 
 const ServiceItem: React.FC<ServiceItemProps> = ({
@@ -17,6 +18,7 @@ const ServiceItem: React.FC<ServiceItemProps> = ({
   path,
   button,
   index,
+  description,
 }) => {
   const [imageSrc, setImageSrc] = useState<string>("");
 
@@ -39,12 +41,7 @@ const ServiceItem: React.FC<ServiceItemProps> = ({
       </div>
       <div className="flex flex-col gap-9 max-w-[440px]">
         <h2 className="text-[32px] font-bold">{title}</h2>
-        <p className="text-sm">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in r.
-        </p>
+        <p className="text-sm">{description}</p>
         <div className="flex items-center justify-between">
           <Pros />
           <Pros />

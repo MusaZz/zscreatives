@@ -1,7 +1,7 @@
-const Service = () => {
-  return (
-    <div>Service</div>
-  )
-}
+import ServicePage from "../../components/ServicePage";
 
-export default Service
+const Service = () => {
+  return <ServicePage />;
+};
+
+export default Service;
