@@ -7,7 +7,7 @@ import Header from "./components/Header";
 
 const App = () => {
   return (
-    <div>
+    <section className="text-[#363636]">
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -15,7 +15,7 @@ const App = () => {
         <Route path="/services" element={<Services />} />
         <Route path="/blogs" element={<Blogs />} />
       </Routes>
-    </div>
+    </section>
   );
 };
 
