@@ -3,6 +3,13 @@ interface NavLink {
   path: string;
 }
 
+interface Testimonial {
+  id: number;
+  comment: string;
+  name: string;
+  imageUrl: string;
+}
+
 interface Service {
   path: string;
   title: string;
@@ -240,27 +247,44 @@ export const generalMenu: FooterMenu[] = [
 export const specializeMenu: SpecializeMenu[] = [
   {
     service: "Branding & Identity",
-    imageUrl: "/public/service/branding.png",
+    imageUrl: "/service/branding.png",
     path: "branding-and-identity",
   },
   {
     service: "Website Development",
-    imageUrl: "/public/service/web.png",
+    imageUrl: "/service/web.png",
     path: "website-development",
   },
   {
     service: "SEO Optimisation",
-    imageUrl: "/public/service/seo.png",
+    imageUrl: "/service/seo.png",
     path: "seo-optimisation",
   },
   {
     service: "UX & UI Designer",
-    imageUrl: "/public/service/design.png",
+    imageUrl: "/service/design.png",
     path: "ux-and-ui-designer",
   },
   {
     service: "Wordpress Support",
-    imageUrl: "/public/service/wordpress.png",
+    imageUrl: "/service/wordpress.png",
     path: "wordpress-support",
+  },
+];
+
+export const testimonials: Testimonial[] = [
+  {
+    id: 1,
+    comment:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim vequis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehen",
+    name: "Leslie Alexander",
+    imageUrl: "/home/avatar-1.png",
+  },
+  {
+    id: 2,
+    comment:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
+    name: "Dianne Russell",
+    imageUrl: "/home/avatar-2.png",
   },
 ];
