@@ -3,6 +3,8 @@
 import WhatWeDo from "./WhatWeDo";
 // import ContactUs from "./ContactUs";
 
+import Services from "./Services";
+
 // import OurBlogs from "./OurBlogs";
 
 const HomePage: React.FC = () => {
@@ -11,8 +13,9 @@ const HomePage: React.FC = () => {
       {/* <Hero /> */}
       {/* <Partners /> */}
       <WhatWeDo />
-      {/* <ContactUs /> */}
+      <Services />
       {/* <OurBlogs /> */}
+      {/* <ContactUs /> */}
     </main>
   );
 };

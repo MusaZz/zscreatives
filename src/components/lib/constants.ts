@@ -25,6 +25,12 @@ interface FooterMenu {
   path: string;
 }
 
+interface SpecializeMenu {
+  service: string;
+  imageUrl: string;
+  path: string;
+}
+
 export const navLinks: NavLink[] = [
   { link: "home", path: "" },
   { link: "about", path: "about" },
@@ -228,5 +234,33 @@ export const generalMenu: FooterMenu[] = [
   {
     link: "Privacy Policy",
     path: "privacy-policy",
+  },
+];
+
+export const specializeMenu: SpecializeMenu[] = [
+  {
+    service: "Branding & Identity",
+    imageUrl: "/public/service/branding.png",
+    path: "branding-and-identity",
+  },
+  {
+    service: "Website Development",
+    imageUrl: "/public/service/web.png",
+    path: "website-development",
+  },
+  {
+    service: "SEO Optimisation",
+    imageUrl: "/public/service/seo.png",
+    path: "seo-optimisation",
+  },
+  {
+    service: "UX & UI Designer",
+    imageUrl: "/public/service/design.png",
+    path: "ux-and-ui-designer",
+  },
+  {
+    service: "Wordpress Support",
+    imageUrl: "/public/service/wordpress.png",
+    path: "wordpress-support",
   },
 ];
