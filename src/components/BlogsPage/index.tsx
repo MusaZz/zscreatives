@@ -15,7 +15,7 @@ const BlogsPage = () => {
         <h2 className="font-bold text-2xl text-center uppercase">
           Lorem ipsum dolor sit amet, consectetu elit,
         </h2>
-        <p className=" text-center px-28">
+        <p className=" text-justify px-28">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
