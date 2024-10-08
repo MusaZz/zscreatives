@@ -3,7 +3,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Services from "./pages/Services";
 import Blogs from "./pages/Blogs";
-import Header from "./components/Header";
+// import Header from "./components/Header";
 import Service from "./pages/Service";
 import Footer from "./components/Footer";
 
