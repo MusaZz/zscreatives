@@ -7,8 +7,6 @@ interface NavLinkProps {
 }
 
 const NavLink = ({ link, path, isActive }: NavLinkProps) => {
-  console.log(path);
-  console.log(isActive);
   return (
     <li className="relative">
       <Link to={path} className="font-medium text-base capitalize">

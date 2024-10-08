@@ -17,7 +17,7 @@ const MiddleSection = () => {
             className=" w-full focus:outline-none px-5 py-[14px] bg-transparent border border-white focus:border-black"
             placeholder="Your email adress"
           />
-          <button className="bg-white w-full sm:w-[174px] text-[#363636]  py-[14px] grid place-items-center border border-white uppercase font-bold text-base">
+          <button className="bg-white w-full sm:w-[174px] text-[#1E1E1E] hover:text-white hover:bg-[#1E1E1E] duration-300  py-[14px] grid place-items-center border border-white uppercase font-bold text-base">
             let's talk
           </button>
         </form>
@@ -27,16 +27,16 @@ const MiddleSection = () => {
           sint occaecat cupidatat non proident, sunt in culpa qui officia
         </p>
         <div className="lg:flex hidden itemx-center gap-5">
-          <div className="bg-white rounded-full w-10 h-10 grid place-items-center">
+          <div className="bg-white hover:scale-125 cursor-pointer duration-300 rounded-full w-10 h-10 grid place-items-center">
             <FaFacebookF fill="black" className="text-xl" />
           </div>
-          <div className="bg-white rounded-full w-10 h-10 grid place-items-center">
+          <div className="bg-white hover:scale-125 cursor-pointer duration-300 rounded-full w-10 h-10 grid place-items-center">
             <FaInstagram fill="black" className="text-xl" />
           </div>
-          <div className="bg-white rounded-full w-10 h-10 grid place-items-center">
+          <div className="bg-white hover:scale-125 cursor-pointer duration-300 rounded-full w-10 h-10 grid place-items-center">
             <FaLinkedinIn fill="black" className="text-xl" />
           </div>
-          <div className="bg-white rounded-full w-10 h-10 grid place-items-center">
+          <div className="bg-white hover:scale-125 cursor-pointer duration-300 rounded-full w-10 h-10 grid place-items-center">
             <FaYoutube fill="black" className="text-xl" />
           </div>
         </div>
@@ -47,7 +47,7 @@ const MiddleSection = () => {
           <FooterNavbar title={`general`} />
         </div>
         <div className="lg:hidden flex justify-center itemx-center gap-5 flex-wrap">
-          <div className="bg-white rounded-full w-10 h-10 grid place-items-center">
+          <div className="bg-white cursor-pointer rounded-full w-10 h-10 grid place-items-center">
             <FaFacebookF fill="black" className="text-xl" />
           </div>
           <div className="bg-white rounded-full w-10 h-10 grid place-items-center">

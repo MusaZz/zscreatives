@@ -21,7 +21,7 @@ const Hero = () => {
             className=" w-full focus:outline-none px-5 py-[14px] bg-transparent border border-[#DCE1E5] focus:border-[#111]"
             placeholder="Your email adress"
           />
-          <button className="bg-[#363636] min-w-[174px] text-white  py-[14px] grid place-items-center border border-[#363636] uppercase font-bold text-base">
+          <button className="bg-[#363636] min-w-[174px] hover:text-[#363636] hover:bg-[white] duration-300 text-white  py-[14px] grid place-items-center border border-[#363636] uppercase font-bold text-base">
             let's talk
           </button>
         </form>
