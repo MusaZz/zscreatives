@@ -10,7 +10,7 @@ import Footer from "./components/Footer";
 const App = () => {
   return (
     <section className="text-[#363636]">
-      <Header />
+      {/* <Header /> */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
@@ -18,7 +18,7 @@ const App = () => {
         <Route path="/service/:id" element={<Service />} />
         <Route path="/blogs" element={<Blogs />} />
       </Routes>
-      <Footer />
+      {/* <Footer /> */}
     </section>
   );
 };

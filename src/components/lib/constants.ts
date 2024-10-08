@@ -28,8 +28,8 @@ interface FooterMenu {
 export const navLinks: NavLink[] = [
   { link: "home", path: "" },
   { link: "about", path: "about" },
-  { link: "service", path: "services" },
-  { link: "blog", path: "blogs" },
+  { link: "services", path: "services" },
+  { link: "blogs", path: "blogs" },
   { link: "contact", path: "contact" },
 ];
 

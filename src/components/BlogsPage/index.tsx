@@ -5,17 +5,17 @@ import BlogsContainer from "./BlogsContainer";
 const BlogsPage = () => {
   return (
     <main>
-      <section className="relative">
-        <div className="absolute top-10 left-16">
+      <section className="lg:relative">
+        <div className="lg:absolute lg:top-8 lg:left-16 max-lg:text-center">
           <PageTitle title={`Blogs`} />
         </div>
         <img className="w-full" src={Hero} alt="hero" />
       </section>
-      <section className="lg:px-16 md:px-14 sm:px-10 px-6 lg:py-6 sm:py-4 py-2 flex flex-col gap-[30px]">
-        <h2 className="font-bold text-2xl text-center uppercase">
+      <section className="lg:px-16 md:px-14 sm:px-10 px-6 lg:py-6 sm:py-4 py-2 flex flex-col lg:gap-[30px] md:gap-7 sm:gap-6 gap-5">
+        <h2 className="font-bold md:text-2xl text-xl text-center uppercase">
           Lorem ipsum dolor sit amet, consectetu elit,
         </h2>
-        <p className=" text-justify px-28">
+        <p className=" text-justify lg:px-28 sm:text-base text-sm">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut

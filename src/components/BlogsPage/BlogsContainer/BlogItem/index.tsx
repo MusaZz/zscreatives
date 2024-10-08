@@ -13,10 +13,10 @@ const BlogItem: React.FC<BlogItemProps> = ({ title, imageUrl }) => {
   }, [imageUrl]);
 
   return (
-    <li className="flex flex-col gap-4">
+    <li className="flex flex-col md:gap-4 gap-3">
       <div className="group overflow-hidden">
         <img
-          className="group-hover:scale-[1.15] duration-500"
+          className="group-hover:scale-[1.15] duration-500 w-full"
           src={imageSrc}
           alt={title}
         />
@@ -24,7 +24,7 @@ const BlogItem: React.FC<BlogItemProps> = ({ title, imageUrl }) => {
       <div className="flex items-center gap-5 pl-2.5">
         <div className="h-[132px] bg-[#33C1FF] w-2 leading-6"></div>
         <div className="flex flex-col items-start h-full justify-between">
-          <h3 className="text-lg font-bold">{title}</h3>
+          <h3 className="md:text-lg text-base font-bold">{title}</h3>
           <button className="text-base font-bold text-[#33C1FF]">
             Read more
           </button>
