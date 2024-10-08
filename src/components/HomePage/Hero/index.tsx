@@ -3,13 +3,15 @@ import Business from "../../../../src/../public/home/business.png";
 
 const Hero = () => {
   return (
-    <section className="flex justify-between lg:px-16 md:px-14 sm:px-10 px-6 lg:pt-6 sm:pt-4 pt-2">
-      <div className="flex flex-col gap-11">
-        <div>
-          <h1 className="font-bold text-[85px]">Create your</h1>
-          <img src={Business} alt="Business" />
+    <section className="flex lg:flex-row flex-col lg:gap-12 md:gap-8 sm:gap-6 gap-5 justify-between lg:px-16 md:px-14 sm:px-10 px-6 lg:pt-6 sm:pt-4 pt-2">
+      <div className="flex flex-col lg:gap-11 md:gap-7 sm:gap-5 gap-4 lg:w-1/2">
+        <div className="flex flex-col items-center justify-center">
+          <h1 className="font-bold lg:text-[85px] md:text-[74px] sm:text-[66px] text-[54px]">
+            Create your
+          </h1>
+          <img className="" src={Business} alt="Business" />
         </div>
-        <p className="text-base font-normal w-[480px]">
+        <p className="text-base font-normal lg:max-w-[480px]">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua.labore et
           dolore magna aliqua.{" "}
@@ -26,7 +28,9 @@ const Hero = () => {
           </button>
         </form>
       </div>
-      <img src={HeroImage} alt="Hero" />
+      <div className="lg:w-1/2 w-full">
+        <img className="w-full object-contain h-full" src={HeroImage} alt="Hero" />
+      </div>
     </section>
   );
 };
