@@ -1,3 +1,4 @@
+// Hooks
 import React, { useEffect, useState } from "react";
 
 interface BlogItemProps {

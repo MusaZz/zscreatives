@@ -1,3 +1,4 @@
+// Images
 import Hero from "../../../public/about/about-hero.png";
 import WHO from "../../../public/about/partners-1.png";
 import Deloitte from "../../../public/about/partners-2.png";

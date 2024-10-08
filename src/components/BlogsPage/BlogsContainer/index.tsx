@@ -1,4 +1,7 @@
+// data
 import { blogs } from "../../lib/constants";
+
+// components
 import BlogItem from "./BlogItem";
 
 const BlogsContainer = () => {

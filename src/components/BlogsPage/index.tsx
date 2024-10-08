@@ -1,4 +1,7 @@
+// Images
 import Hero from "../../../public/blogs/blog-hero.png";
+
+// Components
 import PageTitle from "../PageTitle";
 import BlogsContainer from "./BlogsContainer";
 

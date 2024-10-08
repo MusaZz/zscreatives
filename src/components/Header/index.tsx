@@ -6,6 +6,7 @@ import CTA from "./CTA";
 import Navbar from "./Navbar";
 import XMark from "../Icons/XMark";
 import MobileNavbar from "./MobileNavbar";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [isMobileNavOpen, setMobileNavOpen] = useState(false);
@@ -17,12 +18,14 @@ const Header = () => {
   return (
     <header className="lg:px-16 md:px-14 sm:px-10 px-6 lg:py-6 sm:py-4 py-2">
       <section className="flex items-center justify-between">
-        <img src={Logo} alt="logo" />
+        <Link to={`/`}>
+          <img src={Logo} alt="logo" />
+        </Link>
         <Navbar />
         <CTA />
         <button
           onClick={toggleMobileNav}
-          className="sm:p-1.5 p-1 rounded-full border-2 border-black"
+          className="sm:p-1.5 p-1 lg:hidden block rounded-full border-2 border-black"
         >
           {isMobileNavOpen ? <XMark /> : <Hamburger />}
         </button>
