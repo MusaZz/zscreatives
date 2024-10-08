@@ -28,10 +28,10 @@ const ServiceItem: React.FC<ServiceItemProps> = ({
 
   return (
     <li
-    className={`grid gap-3 items-center md:grid-cols-2 ${
-      index % 2 === 1 ? "md:grid-flow-dense md:[&>*:first-child]:order-2" : ""
-    }`}
-  >
+      className={`grid lg:gap-12 md:gap-10 sm:gap-6 gap-5 items-center md:grid-cols-2 ${
+        index % 2 === 1 ? "md:grid-flow-dense md:[&>*:first-child]:order-2" : ""
+      }`}
+    >
       <div className="group overflow-hidden max-md:w-full ">
         <img
           className="group-hover:scale-[1.15] duration-500 w-full"

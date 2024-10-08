@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <section className="flex lg:flex-row flex-col lg:gap-12 md:gap-8 sm:gap-6 gap-5 justify-between lg:px-16 md:px-14 sm:px-10 px-6 lg:pt-6 sm:pt-4 pt-2">
       <div className="flex flex-col lg:gap-11 md:gap-7 sm:gap-5 gap-4 lg:w-1/2">
-        <div className="flex flex-col items-center justify-center">
+        <div className="flex flex-col lg:items-start items-center">
           <h1 className="font-bold lg:text-[85px] md:text-[74px] sm:text-[66px] text-[54px]">
             Create your
           </h1>
@@ -29,7 +29,11 @@ const Hero = () => {
         </form>
       </div>
       <div className="lg:w-1/2 w-full">
-        <img className="w-full object-contain h-full" src={HeroImage} alt="Hero" />
+        <img
+          className="w-full object-contain h-full"
+          src={HeroImage}
+          alt="Hero"
+        />
       </div>
     </section>
   );
