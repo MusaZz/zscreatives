@@ -1,8 +1,9 @@
 // import Hero from "./Hero";
 // import Partners from "./Partners";
 // import WhatWeDo from "./WhatWeDo";
+// import ContactUs from "./ContactUs";
 
-import ContactUs from "./ContactUs";
+import OurBlogs from "./OurBlogs";
 
 const HomePage: React.FC = () => {
   return (
@@ -10,7 +11,8 @@ const HomePage: React.FC = () => {
       {/* <Hero /> */}
       {/* <Partners /> */}
       {/* <WhatWeDo /> */}
-      <ContactUs />
+      {/* <ContactUs /> */}
+      <OurBlogs />
     </main>
   );
 };
