@@ -20,6 +20,11 @@ interface Blog {
   description: string;
 }
 
+interface FooterMenu {
+  link: string;
+  path: string;
+}
+
 export const navLinks: NavLink[] = [
   { link: "home", path: "" },
   { link: "about", path: "about" },
@@ -177,5 +182,51 @@ export const blogs: Blog[] = [
     imageUrl: "/public/blogs/blog-12.png",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi aliquip ex ea commodo consequat. Duis aute irure dolor in r.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in r. consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco labconsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ",
+  },
+];
+
+export const servicesMenu: FooterMenu[] = [
+  {
+    link: "Branding & Identity",
+    path: "branding-and-identity",
+  },
+  {
+    link: "Web Development",
+    path: "web-development",
+  },
+  {
+    link: "SEO Optimisation",
+    path: "seo-optimisation",
+  },
+  {
+    link: "UX & UI Designer",
+    path: "ux-and-ui-designer",
+  },
+  {
+    link: "Wordpress Support",
+    path: "wordpress-support",
+  },
+];
+
+export const generalMenu: FooterMenu[] = [
+  {
+    link: "Our locations",
+    path: "our-locations",
+  },
+  {
+    link: "Career",
+    path: "career",
+  },
+  {
+    link: "Our team",
+    path: "our-team",
+  },
+  {
+    link: "Frequently asked questions",
+    path: "faq",
+  },
+  {
+    link: "Privacy Policy",
+    path: "privacy-policy",
   },
 ];

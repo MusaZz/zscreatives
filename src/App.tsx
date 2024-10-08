@@ -5,6 +5,7 @@ import Services from "./pages/Services";
 import Blogs from "./pages/Blogs";
 import Header from "./components/Header";
 import Service from "./pages/Service";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
         <Route path="/service/:id" element={<Service />} />
         <Route path="/blogs" element={<Blogs />} />
       </Routes>
+      <Footer />
     </section>
   );
 };
