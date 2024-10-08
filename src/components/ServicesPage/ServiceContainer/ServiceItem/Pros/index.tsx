@@ -2,7 +2,7 @@ import ProsItem from "./ProsItem";
 
 const Pros = () => {
   return (
-    <ul className="flex flex-col gap-[18px]">
+    <ul className="flex flex-col gap-4">
       <ProsItem />
       <ProsItem />
       <ProsItem />

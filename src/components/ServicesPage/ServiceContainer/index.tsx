@@ -3,8 +3,8 @@ import ServiceItem from "./ServiceItem";
 
 const ServiceContainer = () => {
   return (
-    <section className="lg:px-16 md:px-14 sm:px-10 px-6 lg:pt-12 lg:pb-36 sm:py-6 py-4">
-      <ul className="flex flex-col gap-10 lg:px-8 md:px-7 sm:px-5 px-3">
+    <section className="lg:px-16 md:px-10  lg:pt-12 md:pt-10 sm:pt-8 pt-6 lg:pb-36 md:pb-32 sm:pb-28 pb-24 ">
+      <ul className="flex flex-col gap-10 lg:px-8 md:px-7 ">
         {services.map((s, index) => (
           <ServiceItem
             key={index}

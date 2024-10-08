@@ -18,7 +18,7 @@ const App = () => {
         <Route path="/service/:id" element={<Service />} />
         <Route path="/blogs" element={<Blogs />} />
       </Routes>
-      {/* <Footer /> */}
+      <Footer />
     </section>
   );
 };

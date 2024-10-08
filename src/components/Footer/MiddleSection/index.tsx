@@ -14,7 +14,7 @@ const MiddleSection = () => {
         >
           <input
             type="text"
-            className=" w-full focus:outline-none px-5 py-[14px] bg-transparent border border-white"
+            className=" w-full focus:outline-none px-5 py-[14px] bg-transparent border border-white focus:border-black"
             placeholder="Your email adress"
           />
           <button className="bg-white w-full sm:w-[174px] text-[#363636]  py-[14px] grid place-items-center border border-white uppercase font-bold text-base">
