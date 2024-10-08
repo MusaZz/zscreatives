@@ -1,5 +1,5 @@
-import Hero from "./Hero";
-// import Partners from "./Partners";
+// import Hero from "./Hero";
+import Partners from "./Partners";
 // import WhatWeDo from "./WhatWeDo";
 // import ContactUs from "./ContactUs";
 
@@ -8,8 +8,8 @@ import Hero from "./Hero";
 const HomePage: React.FC = () => {
   return (
     <main>
-      <Hero />
-      {/* <Partners /> */}
+      {/* <Hero /> */}
+      <Partners />
       {/* <WhatWeDo /> */}
       {/* <ContactUs /> */}
       {/* <OurBlogs /> */}
