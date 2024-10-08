@@ -20,7 +20,7 @@ const ServicePage = () => {
   }, [service.backgroundColorUrl]);
 
   return (
-    <main>
+    <main className="pb-[850px]">
       <div className="lg:px-16 md:px-14 sm:px-10 px-6 lg:py-6 sm:py-4 py-2">
         <PageTitle title={service.title} />
       </div>

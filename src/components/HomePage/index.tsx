@@ -1,7 +1,13 @@
-import React from "react";
+import Hero from "./Hero";
+import Partners from "./Partners";
 
 const HomePage: React.FC = () => {
-  return <div>HomePage</div>;
+  return (
+    <main>
+      <Hero />
+      <Partners />
+    </main>
+  );
 };
 
 export default HomePage;
