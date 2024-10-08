@@ -6,9 +6,13 @@ const SectionTitle = ({
   description: string;
 }) => {
   return (
-    <div className="flex flex-col gap-[30px]">
-      <h2 className="font-bold text-2xl text-center uppercase">{title}</h2>
-      <p className=" text-justify px-28">{description}</p>
+    <div className="lg:gap-[30px] md:gap-7 sm:gap-6 gap-5 flex flex-col">
+      <h2 className="font-bold md:text-2xl text-xl  text-center uppercase">
+        {title}
+      </h2>
+      <p className=" text-justify lg:px-28  sm:text-base text-sm">
+        {description}
+      </p>
     </div>
   );
 };
