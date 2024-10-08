@@ -80,7 +80,7 @@ export const services: Service[] = [
   {
     title: "UX & UI Design",
     button: "UX & UI projects",
-    imageUrl: "/services/service-4.png",
+    imageUrl: "/public/services/service-4.png",
     path: "ux-and-ui-design",
     backgroundImageUrl: "/service/design.png",
     backgroundColorUrl: "/service/design-bg.png",

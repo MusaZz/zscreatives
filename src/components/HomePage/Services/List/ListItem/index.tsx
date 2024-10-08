@@ -22,8 +22,10 @@ const ListItem: React.FC<Props> = ({
       className="hover:translate-x-6 group"
     >
       <Link to={`service/${path}`}>
-        <div className="flex items-center">
-          <span className="font-medium lg:text-[28px] md:text-2xl sm:text-xl text-lg">{service}</span>
+        <div className="flex items-center gap-5">
+          <span className="font-medium lg:text-[28px] md:text-2xl sm:text-xl text-lg">
+            {service}
+          </span>
           <div className="hidden group-hover:block">
             <LongArrowRight />
           </div>

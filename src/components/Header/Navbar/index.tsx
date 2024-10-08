@@ -6,7 +6,7 @@ const Navbar = () => {
   const location = useLocation();
 
   return (
-    <nav>
+    <nav className="lg:block hidden">
       <ul className="flex items-center gap-16">
         {navLinks.map((l, index) => (
           <NavLink
