@@ -11,14 +11,14 @@ const App = () => {
   return (
     <section className="text-[#363636]">
       {/* <Header /> */}
-      <Routes>
+      {/* <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/services" element={<Services />} />
         <Route path="/service/:id" element={<Service />} />
         <Route path="/blogs" element={<Blogs />} />
-      </Routes>
-      {/* <Footer /> */}
+      </Routes> */}
+      <Footer />
     </section>
   );
 };

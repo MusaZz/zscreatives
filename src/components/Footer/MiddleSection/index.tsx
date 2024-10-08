@@ -6,24 +6,27 @@ import { FaYoutube } from "react-icons/fa6";
 
 const MiddleSection = () => {
   return (
-    <section className="flex items-end justify-between mt-6">
+    <section className="flex lg:flex-row flex-col items-start justify-between md:mt-6 sm:mt-8 mt-9 gap-10">
       <div className="w-fit flex flex-col gap-12">
-        <form action="#" className="flex items-center gap-3">
+        <form
+          action="#"
+          className="flex sm:flex-row flex-col items-center gap-3 lg:py-5"
+        >
           <input
             type="text"
             className=" w-full focus:outline-none px-5 py-[14px] bg-transparent border border-white"
             placeholder="Your email adress"
           />
-          <button className="bg-white min-w-[174px] text-[#363636]  py-[14px] grid place-items-center border border-white uppercase font-bold text-base">
+          <button className="bg-white w-full sm:w-[174px] text-[#363636]  py-[14px] grid place-items-center border border-white uppercase font-bold text-base">
             let's talk
           </button>
         </form>
-        <p className="w-[504px]">
+        <p className="lg:w-[504px]">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dt nulla pariatur. Excepteur
           sint occaecat cupidatat non proident, sunt in culpa qui officia
         </p>
-        <div className="flex itemx-center gap-5">
+        <div className="lg:flex hidden itemx-center gap-5">
           <div className="bg-white rounded-full w-10 h-10 grid place-items-center">
             <FaFacebookF fill="black" className="text-xl" />
           </div>
@@ -38,12 +41,26 @@ const MiddleSection = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col gap-14">
-        <div className="flex items-center gap-40">
+      <div className=" lg:w-fit w-full flex flex-col lg:gap-14 md:gap-11 sm:gap-8 gap-6">
+        <div className="flex items-start w-full lg:justify-start sm:justify-between justify-center lg:gap-36 md:gap-32 sm:gap-16 gap-10 sm:flex-row flex-col ">
           <FooterNavbar title={`services`} />
           <FooterNavbar title={`general`} />
         </div>
-        <p className="text-base font-normal">
+        <div className="lg:hidden flex justify-center itemx-center gap-5 flex-wrap">
+          <div className="bg-white rounded-full w-10 h-10 grid place-items-center">
+            <FaFacebookF fill="black" className="text-xl" />
+          </div>
+          <div className="bg-white rounded-full w-10 h-10 grid place-items-center">
+            <FaInstagram fill="black" className="text-xl" />
+          </div>
+          <div className="bg-white rounded-full w-10 h-10 grid place-items-center">
+            <FaLinkedinIn fill="black" className="text-xl" />
+          </div>
+          <div className="bg-white rounded-full w-10 h-10 grid place-items-center">
+            <FaYoutube fill="black" className="text-xl" />
+          </div>
+        </div>
+        <p className="text-base font-normal lg:text-left text-center">
           © Copyright 2024 ZS Creative. All rights reserved.
         </p>
       </div>
