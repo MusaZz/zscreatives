@@ -3,14 +3,14 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Services from "./pages/Services";
 import Blogs from "./pages/Blogs";
-// import Header from "./components/Header";
+import Header from "./components/Header";
 import Service from "./pages/Service";
 import Footer from "./components/Footer";
 
 const App = () => {
   return (
     <section className="text-[#363636]">
-      {/* <Header /> */}
+      <Header />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
